@@ -315,14 +315,19 @@
 
 <!-- <h2>hola</h2> -->
 <!-- input para trabajar con NgModel -->
-<input
+<!-- <input
 type="text"
 placeholder="Nombre del usuario"
 [(ngModel)]="usuario"
 >
-<!-- Apunta a lo que se le pasa por parametro -->
+Apunta a lo que se le pasa por parametro
 <app-saludo [nombre]="usuario" (mensajeEmitter)="recibirMensajeDelHijo($event)"></app-saludo>
-<!-- Apunta a lo que esta predefinido -->
-<!-- <app-saludo ></app-saludo> -->
+Apunta a lo que esta predefinido
+<app-saludo ></app-saludo> -->
+
+<!-- Ejemplo de uso de servicio -->
+<!-- <app-lista-contactos></app-lista-contactos> -->
+<!-- Ejemplo de peticion http -->
+<app-login-form></app-login-form>
 </div>
 
